@@ -1,0 +1,14 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+        "created_ts": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "page_id": {"type": ["null", "integer"]},
+        "page_name": {"type": ["null", "string"]},
+        "value_name": {"type": ["null", "string"]},
+        "title": {"type": ["null", "string"]},
+        "value": {"type": ["null", "integer"]}
+    }
+}

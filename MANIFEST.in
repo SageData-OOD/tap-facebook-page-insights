@@ -1,0 +1,2 @@
+include LICENSE
+include tap_facebook_page_insights/schemas/*.json

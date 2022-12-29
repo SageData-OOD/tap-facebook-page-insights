@@ -1,0 +1,37 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+        "created_ts": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "post_id": {"type": ["null", "string"]},
+        "angry": {"type": ["null", "integer"]},
+        "comments": {"type": ["null", "integer"]},
+        "haha": {"type": ["null", "integer"]},
+        "hashtags_count": {"type": ["null", "integer"]},
+        "like": {"type": ["null", "integer"]},
+        "love": {"type": ["null", "integer"]},
+        "message": {"type": ["null", "string"]},
+        "page_id": {"type": ["null", "string"]},
+        "page_name": {"type": ["null", "string"]},
+        "reactions": {"type": ["null", "integer"]},
+        "sad": {"type": ["null", "integer"]},
+        "shares": {"type": ["null", "integer"]},
+        "wow": {"type": ["null", "integer"]},
+        "post_clicks": {"type": ["null", "integer"]},
+        "post_impressions": {"type": ["null", "integer"]},
+        "post_impressions_unique": {"type": ["null", "integer"]},
+        "post_engaged_users": {"type": ["null", "integer"]},
+        "tags": {
+            "type": ["null", "array"],
+            "items": {
+                "type": ["null", "object"],
+                "properties": {
+                    "tagged_id": {"type": ["null", "string"]},
+                    "tagged_name": {"type": ["null", "string"]}
+                }
+            }
+        }
+    }
+}
